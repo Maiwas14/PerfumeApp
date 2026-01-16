@@ -1,0 +1,10 @@
+
+[functions.analyze-perfume]
+enabled = true
+verify_jwt = false
+import_map = "./functions/analyze-perfume/deno.json"
+
+[functions.consult-perfume]
+enabled = true
+verify_jwt = false
+import_map = "./functions/consult-perfume/deno.json"

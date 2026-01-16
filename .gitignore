@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+backend/.env
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/expo-env.d.ts
+mobile/ios/
+mobile/android/
+
+# IDEs and Tools
+.vscode/
+.DS_Store
+*.pem
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Supabase
+supabase/.temp/
+supabase/functions/**/.env
+
+# Local environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
