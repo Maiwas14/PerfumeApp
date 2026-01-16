@@ -13,7 +13,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const { width } = Dimensions.get('window');
 
 // --- CONFIGURATION ---
-const SUPABASE_URL = 'https://yyrkvbwtnuzkizjrgdiv.supabase.co';
+const SUPABASE_URL = 'SUPABASE_URL';
 const SUPABASE_ANON_KEY = 'ApiKey';
 // IMPORTANTE: API Key de Google Gemini
 // IMPORTANTE: Para producción o compartir en GitHub, usa variables de entorno (.env)
