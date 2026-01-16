@@ -14,7 +14,7 @@ const { width } = Dimensions.get('window');
 
 // --- CONFIGURATION ---
 const SUPABASE_URL = 'https://yyrkvbwtnuzkizjrgdiv.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl5cmt2Ynd0bnV6a2l6anJnZGl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc3ODYwOTEsImV4cCI6MjA4MzM2MjA5MX0.MO_LMjdZKGP2WsCExgPPVDjmGFBFGiDE4oWIK8np5Lg';
+const SUPABASE_ANON_KEY = 'ApiKey';
 // IMPORTANTE: API Key de Google Gemini
 // IMPORTANTE: Para producción o compartir en GitHub, usa variables de entorno (.env)
 // Si usas Expo, puedes configurar esto en app.config.js o usar un archivo .env
